@@ -1,9 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="icon" type="image/png" href="data:image/png;base64,">
-<title>Boris Zhenikhov</title>
+<script src="./likely.js"></script>
+<link rel="stylesheet" href="./likely.css">
+<title>Борис Женихов</title>
 <style>
 	@media (prefers-color-scheme: dark){
 		h1,h2,h3,h4 {
@@ -15,18 +17,20 @@
 		a:visited {color:#c9f}
 	}
 	body{
-		margin:1em auto;
-		max-width:40em;
+		margin: 1em auto;
+		max-width: 640px;
 		padding:0 .62em;
-		font:1.2em/1.62 sans-serif;
+		font: 1.2em/1.62 "Georgia", serif;
 	}
-	h1,h2,h3,h4 {
+	h1,h2,h3 {
 		line-height:1.2;
-		margin-block-end: 12px;
+		margin-block-start: auto;
+		margin-block-end: auto;
 	}
 	h4, p {
-		margin-block-start: auto;
-		margin-block-end: 3px;
+		line-height:1.2;
+		margin-block-start: 8px;
+		margin-block-end: 8px;
 	}
 	ul {
 		margin-block-start: auto;
@@ -40,42 +44,49 @@
 </style>
 <article>
 	<header>
-		<h1>Борис Женихов, DevOps-инженер</h1>
-		<aside>Автоматизирую процессы и помогаю проектам с открытым исходным кодом.</aside>
-		<p class="typography-intro"><a href="tel:89250882283">+7 925 088-22-83</a> · <a href="mailto:znhv@yandex.com">znhv@yandex.com</a> · <a href="http://github.com/znhv">github.com/znhv</a> · <a href="https://t.me/catblaster">t.me/catblaster</a></p>
+		<h1>Борис Женихов</h1>
+		<p>DevOps-инженер, автоматизирую процессы и помогаю проектам с открытым исходным кодом.</p>
+		<p class="typography-intro"><a href="tel:89250882283">+7 925 088-22-83</a> · <a href="mailto:znhv@yandex.com">znhv@yandex.com</a> · <a href="http://github.com/znhv">Github</a> · <a href="https://t.me/catblaster">Telegram</a> · <a href="">Резюме</a></p>
 	</header>
-	<h3>Навыки</h3>
-	<p>GNU/Linux, FreeBSD, OS X, Windows | Python, Go, Bash, JavaScript | Kubernetes, Docker, Ansible, Prometheus, Jenkins, Github Actions | Flask, HTML, CSS, JSON, Ajax, PostgreSQL.</p>
-	<h3 id="projects">Проекты</h3>
-	<h4><a href="">Censor</a></h4>
-	<p>Таблица расходов которая помогает экономить.</p>
-	<ul>
-		<li>Собрал на фреймворке Flask, верстал на Bootstrap-е</li>
-		<li>Упаковал в Docker-контейнер</li>
-		<li>Развернул на сервере AWS</li>
-	</ul>
-	<h4><a href="">Polarity</a></h4>
-	<p>Калькулятор разницы структур данных.</p>
-	<ul>
-		<li>Использовал рекурсивный метод сравнения</li>
-		<li>Применил метод разработки через тестирование и добился покрытия тестами 92% кода</li>
-	</ul>
-	<h4><a href="">Braingames</a></h4>
-	<p>Консольная математическая игра.</p>
-	<ul>
-		<li>Применил ООП для создания архитектуры движка</li>
-		<li>Использовал библиотеку Pony ORM, СУБД — PostgreSQL</li>
-		<li>Применил Github Actions для непрерывного тестирования</li>
-	</ul>
-	<h3 id="experience">Опыт</h3>
-	<h4>Инженер АСУ ТП в Кокше-Цемент с Октября 2016 по Декабрь 2021</h4>
-	<p>Автоматизированный завод по производству цемента, проект компании <a href="https://www.flsmidth.com">FLSmidth</a>.</p>
-	<ul>
-		<li>Принимал участие в пусконаладочных работах</li>
-		<li>Программировал контроллеры</li>
-		<li>Обслуживал сервера, аппаратную и программную часть проекта</li>
-	</ul>
-	<h3 id="education">Образование</h3>
-	<h4>Высший технический колледж Кокшетау с Сентября 2012 по Июль 2016</h4>
-	<p>Контрольно-измерительные приборы и автоматика в промышленности.</p>
+<!--	<h3>Навыки</h3>-->
+<!--	<p>GNU/Linux, FreeBSD, OS X, Windows | Python, Go, Bash, JavaScript | Kubernetes, Docker, Ansible, Prometheus, Jenkins, Github Actions | Flask, HTML, CSS, JSON, Ajax, PostgreSQL.</p>-->
+<!--	<h3 id="projects">Проекты</h3>-->
+<!--	<h4><a href="">Censor</a></h4>-->
+<!--	<p>Таблица расходов которая помогает экономить.</p>-->
+<!--	<ul>-->
+<!--		<li>Собрал на фреймворке Flask, верстал на Bootstrap-е</li>-->
+<!--		<li>Упаковал в Docker-контейнер</li>-->
+<!--		<li>Развернул на сервере AWS</li>-->
+<!--	</ul>-->
+<!--	<h4><a href="">Polarity</a></h4>-->
+<!--	<p>Калькулятор разницы структур данных.</p>-->
+<!--	<ul>-->
+<!--		<li>Использовал рекурсивный метод сравнения</li>-->
+<!--		<li>Применил метод разработки через тестирование и добился покрытия тестами 92% кода</li>-->
+<!--	</ul>-->
+<!--	<h4><a href="">Braingames</a></h4>-->
+<!--	<p>Консольная математическая игра.</p>-->
+<!--	<ul>-->
+<!--		<li>Применил ООП для создания архитектуры движка</li>-->
+<!--		<li>Использовал библиотеку Pony ORM, СУБД — PostgreSQL</li>-->
+<!--		<li>Применил Github Actions для непрерывного тестирования</li>-->
+<!--	</ul>-->
+<!--	<h3 id="experience">Опыт</h3>-->
+<!--	<h4>Инженер АСУ ТП в Кокше-Цемент с Октября 2016 по Декабрь 2021</h4>-->
+<!--	<p>Автоматизированный завод по производству цемента, проект компании <a href="https://www.flsmidth.com">FLSmidth</a>.</p>-->
+<!--	<ul>-->
+<!--		<li>Принимал участие в пусконаладочных работах</li>-->
+<!--		<li>Программировал контроллеры</li>-->
+<!--		<li>Обслуживал сервера, аппаратную и программную часть проекта</li>-->
+<!--	</ul>-->
+<!--	<h3 id="education">Образование</h3>-->
+<!--	<h4>Высший технический колледж Кокшетау с Сентября 2012 по Июль 2016</h4>-->
+<!--	<p>Контрольно-измерительные приборы и автоматика в промышленности.</p>-->
+	<div class="likely">
+	  <div class="twitter">Твитнуть</div>
+	  <div class="facebook">Поделиться</div>
+	  <div class="vkontakte">Поделиться</div>
+	  <div class="telegram">Отправить</div>
+	  <div class="whatsapp">Вотсапнуть</div>
+	</div>
 </article>
