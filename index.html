@@ -26,18 +26,28 @@
 		line-height: 40px;
 		margin-block-start: auto;
 		margin-block-end: auto;
-		font-size: 36px;
-		margin-bottom: 10px;
+		font-size: 32px;
+		margin-bottom: 8px;
 	}
 	h4, p {
 		font-size: inherit;
 		line-height:1.2;
 		margin-block-start: 8px;
-		margin-block-end: 8px;
 	}
 	ul {
 		margin-block-start: auto;
 		margin-block-end: 16px;
+	}
+	a:link {
+		color: #0089ff;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(0,137,255,.3);
+		-webkit-transition: color .3s ease,border-color .3s ease;
+		transition: color .3s ease,border-color .3s ease;
+	}
+	a:link:hover, a:visited:hover {
+		color: #f41224;
+		border-color: rgba(244,18,36,.3);
 	}
 	@media print{
 		body{
@@ -49,7 +59,7 @@
 	<header>
 		<h1>Борис Женихов</h1>
 		<p>DevOps-инженер, автоматизирую процессы и помогаю проектам с открытым исходным кодом.</p>
-		<p class="typography-intro"><a href="tel:89250882283">+7 925 088-22-83</a> • <a href="mailto:znhv@yandex.com">znhv@yandex.com</a> • <a href="http://github.com/znhv">Github</a> • <a href="https://t.me/catblaster">Telegram</a> • <a href="">Резюме</a></p>
+		<p><a href="tel:89250882283">+7 925 088-22-83</a> • <a href="mailto:znhv@yandex.com">znhv@yandex.com</a> • <a href="http://github.com/znhv">Github</a> • <a href="https://t.me/catblaster">Telegram</a> • <a href="">Резюме</a></p>
 	</header>
 	<div class="likely">
 	  <div class="twitter">Твитнуть</div>
